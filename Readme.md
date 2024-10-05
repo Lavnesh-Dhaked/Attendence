@@ -39,7 +39,7 @@ After marking attendance, click the "Download Attendance" button to download a P
 
 ## GitHub Page
 
-Visit the project page on GitHub: [Your GitHub Page](https://github.com/Lavnesh-Dhaked/Attendence)
+Visit the project page on GitHub: [Your GitHub Page]( https://lavnesh-dhaked.github.io/Attendence/)
 
 ## License
 
