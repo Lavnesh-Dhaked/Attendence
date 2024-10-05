@@ -5,6 +5,12 @@ body {
   padding: 20px;
   background-color: #f4f4f4;
 }
+.upload-instruction {
+    color: #555; /* Gray color */
+    font-size: 14px; /* Slightly larger text */
+    margin: 10px 0; /* Space above and below */
+    font-style: italic; /* Italic style */
+}
 
 h1 {
   font-size: 36px;

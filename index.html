@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Check</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
   </head>
   <body>
+    <header>
+      <nav></nav>
+    </header>
+
     <section id="management">
       <h2>Attendance Management</h2>
       <h3>Student List</h3>
@@ -16,10 +19,16 @@
       <input type="file" id="fileInput" accept=".csv" />
       <button id="loadButton">Load Students</button>
 
+      <p class="upload-instruction">
+        Please upload a CSV file containing student names. The file should have
+        one student name per line.
+      </p>
+
       <ul id="studentList" class="student-list"></ul>
 
-      <button id="downloadButton">Download Attendance as PDF</button>
+      <button id="downloadButton">Download Attendance</button>
     </section>
+
     <script src="script.js"></script>
   </body>
 </html>
