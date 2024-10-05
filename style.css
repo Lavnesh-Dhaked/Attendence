@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cd5c08;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #555;
+}
+
+/* Container Styles */
+#management {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Button Styles */
+input[type="file"],
+button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"] {
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Student List Styles */
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-name {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Attendance Button Styles */
+.attendance-buttons {
+  display: flex;
+}
+
+.attendance-button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #9c9c9c;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.attendance-button:hover {
+  background-color: #eee;
+}
+
+.attendance-button.present {
+  background-color: green;
+  color: white;
+}
+
+.attendance-button.leave {
+  background-color: orange;
+  color: white;
+}
+
+.attendance-button.absent {
+  background-color: red;
+  color: white;
+}
+
+/* Download Button Styles */
+#downloadButton {
+  margin-top: 20px;
+  background-color: #28a745;
+}
+
+#downloadButton:hover {
+  background-color: #218838;
+}
+
+/* Miscellaneous */
+::selection {
+  background-color: #ffcc00af;
+  color: #333;
+}
+
+#management {
+  margin-left: 25px;
+}
