@@ -17,3 +17,30 @@ This project is a simple web application that allows for the management of stude
 - **html2canvas**: A JavaScript library to take screenshots of web pages.
 - **jsPDF**: A JavaScript library for generating PDF documents.
 
+## Usage
+
+### Load Students:
+
+1. Click on the "Choose File" button to upload a CSV file containing student names. The file should be formatted with one student name per line.
+2. After selecting the file, click on the "Load Students" button.
+
+### Mark Attendance:
+
+For each student listed, click on the corresponding button to mark them as Present, Leave, or Absent. Only one attendance option can be selected at a time for each student.
+
+### Download Attendance:
+
+After marking attendance, click the "Download Attendance" button to download a PDF report of the attendance records. The PDF will list each student and their attendance status.
+
+## Social Media
+
+
+- [Your LinkedIn](https://www.linkedin.com/in/lavnesh-dhaked-b7ba272a6 )
+
+## GitHub Page
+
+Visit the project page on GitHub: [Your GitHub Page](https://github.com/Lavnesh-Dhaked/Attendence)
+
+## License
+
+This project is licensed under the MIT License.
